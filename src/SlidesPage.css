@@ -35,8 +35,10 @@
   height: 50px;
 }
 
-h1 {
+h3 {
     margin: 1rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 .slide-number {
     color: white;
