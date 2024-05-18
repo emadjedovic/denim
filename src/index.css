@@ -1,7 +1,7 @@
 html, body {
   background-color: #151e3d; /* Dark blue color */
   color: #ffffff; /* White text */
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
   height: 100%; /* Full height for the html and body */

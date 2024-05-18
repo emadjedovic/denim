@@ -12,13 +12,26 @@ const reasons = [
   "7. They can make your waist look smaller.",
   "8. They provide better support for your head and neck.",
   "9. They can make you look taller.",
-  "10. They can boost your self-esteem and body image."
+  "10. They can boost your self-esteem and body image.",
+  "11. They can boost your self-esteem and body image.",
+  "12. They can boost your self-esteem and body image.",
+  "13. They can boost your self-esteem and body image.",
+  "14. They can boost your self-esteem and body image.",
+  "15. They can boost your self-esteem and body image.",
+  "16. They can boost your self-esteem and body image.",
+  "17. They can boost your self-esteem and body image.",
+  "18. They can boost your self-esteem and body image.",
+  "19. They can boost your self-esteem and body image.",
+  "20. They can boost your self-esteem and body image.",
+  "21. They can boost your self-esteem and body image.",
+  "22. They can boost your self-esteem and body image.",
+  "23. They can boost your self-esteem and body image."
 ];
 
 const App = () => {
   return (
     <div className="container mt-5">
-      <h1 className="text-light">10 Reasons Why Having Broad Shoulders is Awesome</h1>
+      <h1 className="text-light">23 Reasons Why Having Broad Shoulders Is Awesome</h1>
       <Carousel controls={true} indicators={false} interval={null}>
         {reasons.map((reason, index) => (
           <Carousel.Item key={index}>
