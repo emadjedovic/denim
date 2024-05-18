@@ -2,7 +2,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'react-bootstrap';
-import './SlidesPage.css'; // Import the CSS file
+import './SlidesPage.css';
 
 const reasons = [
     "They enhance your V-taper physique.",
@@ -34,7 +34,7 @@ const reasons = [
     console.log("Reasons:", reasons);
 
     const handleBackButtonClick = () => {
-        onClick(); // Call the onClick function to switch back to the TitlePage
+        onClick();
       };
 
     return (

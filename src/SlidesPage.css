@@ -24,15 +24,15 @@
 }
 
 .back-button-wrapper {
-  background-color: ghostwhite; /* White background */
-  border-radius: 50%; /* Rounded border */
-  padding: 10px; /* Padding for space around the image */
-  display: inline-block; /* Ensures div wraps around content */
+  background-color: ghostwhite;
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-block;
 }
 
 .back-button {
-  width: 50px; /* Adjust the size as needed */
-  height: 50px; /* Adjust the size as needed */
+  width: 50px;
+  height: 50px;
 }
 
 h1 {

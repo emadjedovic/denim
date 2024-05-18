@@ -12,7 +12,7 @@ const App = () => {
   };
   
   return (
-    <div>
+    <div className="overlay">
       {showSlides ? <SlidesPage onClick={handlePageClick} /> : <TitlePage onClick={handlePageClick} />}
     </div>
   );

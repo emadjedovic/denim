@@ -16,8 +16,8 @@
 }
 
 .App-header {
-  font-family: 'Times New Roman', serif; /* Change font family to serif */
-  background-color: #1b2436;
+  font-family: 'Times New Roman', serif;
+  background-color: #121626;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,6 +29,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @keyframes App-logo-spin {

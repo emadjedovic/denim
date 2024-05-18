@@ -1,15 +1,14 @@
 html, body {
-  background-color: #151e3d; /* Dark blue color */
-  color: #ffffff; /* White text */
+  color: #ffffff;
   font-family: 'Times New Roman', Times, serif;
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  height: 100%; /* Full height for the html and body */
+  background: url('/public/saturated.jpg') center/cover no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 #root{
   display: flex;
-  background-color: #151e3d; /* Dark blue color */
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -18,20 +17,17 @@ html, body {
 h1 {
   text-align: center;
   margin-bottom: 30px;
+  color: white;
 }
 
 .carousel-item {
   text-align: center;
-  height: 200px; /* Ensure height is set */
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .carousel-item h3 {
-  color: #ffffff; /* White text */
-}
-
-.container {
-  background-color: #001f3f; /* Dark blue color */
+  color: #ffffff
 }
