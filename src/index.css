@@ -7,7 +7,7 @@ html, body {
   height: 100%; /* Full height for the html and body */
 }
 
-#root {
+#root{
   display: flex;
   background-color: #151e3d; /* Dark blue color */
   justify-content: center;
